@@ -63,3 +63,4 @@ Version 1.0
 
 Twitter: @AnonGuegue
  
+ <img src="/img/GoogleColab.png"</img>
