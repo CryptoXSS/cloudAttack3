@@ -40,8 +40,11 @@ Run: node cloudattack.js --attack "yoursite" --threads 500
 Proxys: --proxy true --updateproxy true
 
 
-Example: !node cloudattack.js --attack "https://www.acloudflaresite.com" --threads 1000 --proxy proxy.txt
+Example: !node cloudattack.js --attack "https://www.acloudflaresite.com" --threads 1000 --proxy true   
 ```
+
+#Update proxy.txt
+https://1drv.ms/u/s!AoFeNfGwTmEFiHUT3F2aoCMH4_Dl?e=myTUfg
 
 ## Dependencias:
   - npm install 
