@@ -63,4 +63,4 @@ Version 1.0
 
 Twitter: @AnonGuegue
  
- <img src="cloudAttack3/img/GoogleColab.png"</img>
+ <img src="https://raw.githubusercontent.com/CryptoXSS/cloudAttack3/master/img/GoogleColab.png"</img>
