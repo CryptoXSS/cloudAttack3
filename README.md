@@ -27,9 +27,10 @@ In general, Cloudflare has 4 types of _common_ anti-bot pages:
   
 
 Usage
+#Install on Google Colab <a href="https://colab.research.google.com">here</a>
 ============
 ```javascript
-Install on Kali/Debian <a href="https://colab.research.google.com">here</a>
+Install on Kali/Debian
 
 !git clone https://github.com/CryptoXSS/cloudAttack3
 %cd cloudAttack3
